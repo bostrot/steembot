@@ -35,7 +35,7 @@ function createdListener() {
                     // this creates and adds a vote request with 60% power to the main queue where it waits for execution
                     this.bot.execQueue.push(function(callback) {
                         // basic voting broadcast
-                        steem.broadcast.vote(this.bot.wif, this.bot.config.user, content.author, content.permlink, 6000,
+                        this.bot.steem.broadcast.vote(this.bot.wif, this.bot.config.user, content.author, content.permlink, 6000,
                             function(err, result) {
                                 if (err === null || err === undefined) {
                                     console.log("Successfully upvoted " + content.author + " " + content.permlink);
