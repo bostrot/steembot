@@ -1,0 +1,18 @@
+{
+  "name": "steembot",
+  "version": "0.0.1",
+  "description": "Light Steem bot framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bostrot <me@bostrot.pro>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "async": "^2.6.1",
+    "cleverbot-node": "^0.3.11",
+    "dialogflow": "^0.6.0",
+    "request": "^2.88.0",
+    "steem": "^0.7.1"
+  }
+}
