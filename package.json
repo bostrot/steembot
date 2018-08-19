@@ -1,6 +1,6 @@
 {
   "name": "steembot",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Light Steem bot framework.",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,6 @@
     "async": "^2.6.1",
     "cleverbot-node": "^0.3.11",
     "dialogflow": "^0.6.0",
-    "request": "^2.88.0",
     "steem": "^0.7.1"
   },
   "devDependencies": {
