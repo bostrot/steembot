@@ -80,6 +80,5 @@ typings/
 Google.json
 
 # temp
-plugins/
 
 # End of https://www.gitignore.io/api/node
