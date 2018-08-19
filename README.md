@@ -34,6 +34,9 @@ This requires Node.js to work. If you have installed it, simply run:
     git clone https://github.com/bostrot/steembot
     cd steembot
     npm i
+    
+ Now fill out the `config.js` file and start it with:
+ 
     node index.js
 
 For a daemon you can use upstart or screen. (though screen only for development).
